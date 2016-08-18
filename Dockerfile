@@ -3,4 +3,4 @@ MAINTAINER    Rohan Ray (https://github.com/rohanray)
 
 COPY scripts /os-init-scripts
 
-ENTRYPOINT ["sh", "/os-init-scripts/os-init.sh"]
+RUN sh /os-init-scripts/os-init.sh
