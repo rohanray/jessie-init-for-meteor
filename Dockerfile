@@ -1,5 +1,5 @@
 FROM          debian:jessie
-MAINTAINER    Rohan Ray (https://github.com/rohanray)
+MAINTAINER    Rohan Ray (https://github.com/rohanray) [rohanray@outlook.com]
 
 COPY scripts /os-init-scripts
 
